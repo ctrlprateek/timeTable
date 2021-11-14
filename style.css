@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Lato", sans-serif;
+  background-color: #282a35;
+  text-align: center;
+}
+
+/* Heading and Logo */
+
+header {
+  background-color: #009B77;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  padding: 5% 12%;
+  text-align: left;
+  text-shadow: 2px 2px 2px #4a5cff;
+}
+
+.logo img {
+  width: 30%;
+  padding: 0%;
+  margin-right: 8px;
+  border-radius: 100%;
+  background-color: #ffffff0e;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+}
+
+.logo span {
+  position: relative;
+  bottom: 4px;
+  line-height: 1.5rem;
+  font-family: "sans-serif";
+}
+
+.logo h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Semester */
+
+.sem {
+  margin-bottom: 3%;
+  text-shadow: 1px 1px 2px black;
+}
+
+em.clickontable {
+    position: relative;
+    bottom: 10px;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Radio */
+.radio {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+  padding: 4%;
+}
+
+/* Routine */
+.routine {
+  margin: 4px;
+}
+
+table,
+th,
+thead,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+}
+
+.routine table {
+  margin-bottom: 3rem;
+}
+
+table {
+  width: 100%;
+  line-height: 1.1rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+td {
+  padding: 1%;
+}
+
+/* details */
+h3.clickHere {
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}
+.details {
+  margin: 2px;
+  background-color: #616e7e;
+}
+
+.tableHead {
+    border: 1px solid black;
+    background-color: #4f5a68;
+}
+
+/* Clicked Animation */
+.clicked {
+    background-color: rgba(0, 17, 255, 0.589);
+    border-radius: 10%;
+    border: 1px solid rgba(44, 51, 141, 0.589);
+    box-shadow: 2px 2px 4px rgba(59, 37, 255, 0.904);
+}
+
+/* Footer */
+
+#footer {
+  margin-top: 5%;
+  padding-top: 15%;
+  padding-bottom: 8%;
+  text-align: center;
+  background-color: white;
+  color: black;
+  letter-spacing: 2px;
+}
+
+#footer .fab {
+  margin: 20px 10px;
+  font-size: 2.2rem;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #16acec;
+}
+
+/* Responsiveness */
+
+@media (min-width: 720px) {
+  .logo {
+    width: 30%;
+    line-height: 2rem;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+  }
+  .logo h3 {
+    font-size: 1.5rem;
+  }
+  
+  .logo h1 {
+    margin-bottom: 5px;
+    font-size: 2rem;
+  }  
+  
+  .sem {
+    margin: 2%;
+  }
+
+  .radio {
+    padding: 2%;
+  }
+  
+}
