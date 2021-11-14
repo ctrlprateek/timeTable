@@ -1,2 +1,2 @@
-# Routine
-https://MrSagarBiswas.github.io/Routine
+# timeTable
+https://ctrlprateek.github.io/timeTable
